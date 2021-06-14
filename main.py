@@ -34,7 +34,10 @@ async def clear(ctx, amount : int):
 @clear.error
 async def clear_error(ctx, error):
     if isinstance(error, commands.MissingRequiredArgument):
-        await ctx.send('Numbers of message need to delete.')
+        await ctx.send('Numbers of message need to delete
+@client.command()
+async def knd(ctx):
+    await ctx.send('First of all, Doãn Hải. Second of all, manipulative. Third of all, uncultured dad. Fourth of all, just wait one more year as you said. And most importantly, REMEMBER that faking post, REMEMBER THIS: :poop:') 
 @client.command()
 async def ping(ctx):
     await ctx.send(f'Pong! {round(client.latency * 1000)}ms')
