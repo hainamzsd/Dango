@@ -37,10 +37,14 @@ async def clear_error(ctx, error):
         await ctx.send('Numbers of message need to delete')
 @client.command()
 async def knd(ctx):
-    await ctx.send('First of all, Doãn Hải. Second of all, manipulative. Third of all, uncultured dad. Fourth of all, just wait one more year as you said. And most importantly, REMEMBER that faking post, REMEMBER THIS: :poop:') 
+    await ctx.send('First of all, Doãn Hải. Second of all, manipulative. Third of all, uncultured dad. And most importantly, REMEMBER that fucking post, REMEMBER THIS: :poop:') 
 @client.command()
 async def ping(ctx):
     await ctx.send(f'Pong! {round(client.latency * 1000)}ms')
+@client.command()
+async def nmp(ctx):
+    await ctx.send('Dẫu xuôi về phương Bắc\nDẫu ngược về phương Nam\nCứ nghe đâu có Ming\n... .')
+
 
 # @client.command()
 # async def join(ctx):
