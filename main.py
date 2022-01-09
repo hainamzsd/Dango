@@ -15,7 +15,7 @@ client = commands.Bot(command_prefix = '>')
 
 
 status = cycle(['>help','>happy','>server'])
-extension = ['youtube','text','cogs','image']
+extension = ['youtube','text','cogs']
 players = { }
 @client.event
 async def on_ready():
